@@ -1,0 +1,31 @@
+>>> E-R Diagram:
+----------------------------------
+1) It will represent the overall  structure of database.
+
+2) we will use multiple shapes to denote multiple things for eg.
+
+3) Some major component we use while creating E-R diagram are:
+
+a] Rectangle ------------------------------Entity
+b] Diamond -------------------------------Relation between two entity
+c] Ellips ------------------------------------Attribute(coloumn)
+d] Lines ------------------------------------Creates links between multiple component
+f] Double ellipes ------------------------Multiple value attribute
+g] Ellipes with dash inside -----------Primary key attributes
+h] Double Rectangle -------------------Weak entity (table which doesnt have primary key)
+
+
+>>>Normalisation:
+---------------------------
+1) It is a process to organise the data in database to avoid redunndancy and it should not create issue while insertion, updation or at time of deletion.
+
+2) Various form of Normalistion are available.
+
+3) By each NF our table structure improve.
+
+1nf
+2nf
+3nf
+bcnf (byoce and codd normal form)
+
+4) Generally to achieve this we split the table into multiple or we create keys inside table.
